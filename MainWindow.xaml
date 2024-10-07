@@ -11,13 +11,13 @@
         <TextBlock HorizontalAlignment="Left" Height="37" Margin="55,46,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Width="186"/>
         <Image HorizontalAlignment="Left" Height="102" Margin="645,25,0,0" VerticalAlignment="Top" Width="200" Source="/PXL.png"/>
         <Image Name="Rood" HorizontalAlignment="Left" Height="99" Margin="73,118,0,0" VerticalAlignment="Top" Width="158" Source="/Rood.png"
-               MouseEnter="Rood_MouseEnter" MouseLeave="Grijs_MouseLeave"/>
+               MouseEnter="Rood_MouseEnter" MouseLeave="Grijs_MouseLeave" MouseLeftButtonDown="Image_MuisKlik"/>
         <Image Name="Geel" HorizontalAlignment="Left" Height="99" Margin="312,119,0,0" VerticalAlignment="Top" Width="148" Source="/Geel.png"
-               MouseEnter="Geel_MouseEnter" MouseLeave="Grijs_MouseLeave"/>
+               MouseEnter="Geel_MouseEnter" MouseLeave="Grijs_MouseLeave" MouseLeftButtonDown="Image_MuisKlik"/>
         <Image Name="Groen" HorizontalAlignment="Left" Height="86" Margin="73,240,0,0" VerticalAlignment="Top" Width="149" Source="/Groen.png"
-               MouseEnter="Groen_MouseEnter" MouseLeave="Grijs_MouseLeave"/>
+               MouseEnter="Groen_MouseEnter" MouseLeave="Grijs_MouseLeave" MouseLeftButtonDown="Image_MuisKlik"/>
         <Image Name="Blauw" HorizontalAlignment="Left" Height="86" Margin="312,240,0,0" VerticalAlignment="Top" Width="148" Source="/Blauw.png"
-               MouseEnter="Blauw_MouseEnter" MouseLeave="Grijs_MouseLeave"/>
+               MouseEnter="Blauw_MouseEnter" MouseLeave="Grijs_MouseLeave" MouseLeftButtonDown="Image_MuisKlik"/>
 
         <TextBlock HorizontalAlignment="Left" Height="18" Margin="34,353,0,0" TextWrapping="Wrap" Text="Kleurcode:" VerticalAlignment="Top" Width="114"/>
         <TextBlock HorizontalAlignment="Left" Height="21" Margin="34,388,0,0" TextWrapping="Wrap" Text="Informatie:" VerticalAlignment="Top" Width="73"/>

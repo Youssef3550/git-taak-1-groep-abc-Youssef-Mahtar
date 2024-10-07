@@ -49,5 +49,34 @@ namespace git_taak_1_groep_abc_Youssef_Mahtar
         {
             MainGrid.Background = new SolidColorBrush(Colors.LightGray);
         }
+
+        private void Image_MuisKlik(object sender, MouseEventArgs e)
+        {
+            Image Clicked = sender as Image;
+
+            if (Clicked != null)
+            {
+                switch (Clicked.Name) 
+                {
+                    case "Rood":
+                        TxtCode.Text = "#FF0000";
+                        break;
+
+                    case "Groen":
+                        TxtCode.Text = "#008000";
+                        break;
+
+                    case "Geel":
+                        TxtCode.Text = "#FFFF00";
+                        break;
+
+                    case "Blauw":
+                        TxtCode.Text = "#0000FF";
+                        break;
+
+                }
+            }
+                
+        }
     }
 }
