@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="LightGray">
-        <TextBlock HorizontalAlignment="Left" Height="37" Margin="69,49,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Width="186"/>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="55,46,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Width="186"/>
 
     </Grid>
 </Window>
