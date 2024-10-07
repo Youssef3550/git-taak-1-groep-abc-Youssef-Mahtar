@@ -60,18 +60,22 @@ namespace git_taak_1_groep_abc_Youssef_Mahtar
                 {
                     case "Rood":
                         TxtCode.Text = "#FF0000";
+                        TxtInfo.Text = "Rood is de kleur van warmte";
                         break;
 
                     case "Groen":
                         TxtCode.Text = "#008000";
+                        TxtInfo.Text = "Groen is de kleur van genezing";
                         break;
 
                     case "Geel":
                         TxtCode.Text = "#FFFF00";
+                        TxtInfo.Text = "Geel is de kleur van levenslust";
                         break;
 
                     case "Blauw":
                         TxtCode.Text = "#0000FF";
+                        TxtInfo.Text = "Blauw is de kleur van intelligentie";
                         break;
 
                 }
