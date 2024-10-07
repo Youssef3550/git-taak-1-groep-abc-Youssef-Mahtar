@@ -24,5 +24,30 @@ namespace git_taak_1_groep_abc_Youssef_Mahtar
         {
             InitializeComponent();
         }
+
+        private void Rood_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MainGrid.Background = (Brush)new BrushConverter().ConvertFrom("#FF0000");
+        }
+
+        private void Groen_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MainGrid.Background = (Brush)new BrushConverter().ConvertFrom("#008000");
+        }
+
+        private void Geel_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MainGrid.Background = (Brush)new BrushConverter().ConvertFrom("#FFFF00");
+        }
+
+        private void Blauw_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MainGrid.Background = (Brush)new BrushConverter().ConvertFrom("#0000FF");
+        }
+
+        private void Grijs_MouseLeave(object sender, MouseEventArgs e)
+        {
+            MainGrid.Background = new SolidColorBrush(Colors.LightGray);
+        }
     }
 }
